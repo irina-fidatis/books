@@ -5,7 +5,7 @@
   <artifactId>bookdb</artifactId>
   <packaging>war</packaging>
    <version>0.0.1-SNAPSHOT</version>
-  <name>MyFirstMaven Maven Webapp</name>
+  <name>BookDB Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <parent>
   	<groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>MyFirstMaven</finalName>
+    <finalName>bookDB</finalName>
     <plugins>
     	<plugin>
     		<groupId>org.springframework.boot</groupId>
