@@ -25,7 +25,8 @@ public class Application
 			dbHandler = new DataBaseHandler("org.h2.Driver");
 			System.out.println("Creating h2 data base driver finished");
 			
-			String dbFile = "~/workspace/bookstore";
+			// todo: set dp path as project- or config property
+			String dbFile = "~/git/books/bookdb/db/bookstore";
 			System.out.println("Open connection to data base " + dbFile);
 			dbHandler.open(dbFile, "sa", "");
 			System.out.println("Open connection to data base " + dbFile + " finished");
